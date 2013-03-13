@@ -1,0 +1,20 @@
+<h1> YOUR REPRESENTATIVES ARE: </h1>
+
+<%- @rs.each do |senator|%>
+<br>
+<ul>
+  <li><%= image_tag "sun/#{senator['bioguide_id']}.jpg"%></li>
+  <br>
+  <li><b><%= senator['chamber'].upcase %></b></li>
+  <br>
+  <li><b><%= senator['first_name'] %></b></li>
+  <li><b><%= senator['last_name'] %></b></li>
+  <br>
+  <li><b>Tweet_@</b><br><%= senator['twitter_id']%></li>
+  <br>
+  <li><b>Phone:</b><br><%= senator['phone'] %></li>
+  <br>
+  <li><b>Contact Form:</b><br><%= senator['contact_form'] %></li>
+  <br>
+</ul>
+<%- end %>

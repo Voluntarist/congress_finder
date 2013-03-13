@@ -1,0 +1,13 @@
+<!--   <div class="header">
+  </div> -->
+
+
+  <div id="searchform">
+    <container>
+      <%= form_tag '/senator/result', :class => 'search' do %>
+      <input type="text" name="zip" placeholder="Enter your zip code"/>
+      <%= submit_tag 'Go' %>
+      <% end %>
+    </container>
+  </div>
+

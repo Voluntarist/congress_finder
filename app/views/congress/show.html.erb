@@ -1,0 +1,10 @@
+***FIND YOUR REPRESENTATIVE***
+<br>
+***Please Enter Your Zip Code***
+<br>
+<%= form_tag '/congress/result' do %>
+  <%= text_field_tag('query') %>
+  <%= radio_button_tag 'congress', 'senator'%>
+  <%= radio_button_tag 'congress', 'house'%>
+  <%= submit_tag 'Find Your Representative' %>
+<% end %>

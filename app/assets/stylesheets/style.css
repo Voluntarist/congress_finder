@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+html
+{
+/*  height: 100%;*/
+}
+
+body
+{
+  text-align: center;
+  font-family :'PT+Sans';
+  background-color: #bcb6ac;
+  background-attachment: fixed;
+  /*background-image: url(site_design/sitepics/Luke_Rep_HomePage.jpg);*/
+  background-repeat: no-repeat;
+ /* background-position: right bottom;*/
+/* height: 100%;*/
+
+}
+
+li
+{
+  list-style: none;
+}
+
+
+container
+{
+  display: inline-block;
+}
+
+
+.search input[type='text']
+{
+  width: 547px;
+  height: 69px;
+  text-align: center;
+  font-family: 'PT+Sans';
+  font-size: 36px;
+  background-color: #1464AD;
+  margin: 0 auto;
+}
+
+
+.search input[type='submit']
+{
+
+  width: 75px;
+  padding: 50px;
+}
+
+
+.searchform {
+  width: 547px;
+  height: 69px;
+  margin: 0 auto;
+}
+
+#main
+{
+  height: 500px;
+}
+
+
+form
+{
+  text-align: center;
+  background-color: #1464ad;
+  color: white;
+  width: 553px;
+  height: 75px;
+}
+
+#form
+{
+  text-align: center;
+}
+
+#wrapper
+{
+  width: 1000px;
+  /*background-color: pink;*/
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+/*  min-height: 100%;
+  overflow:auto;
+  padding-bottom: 150px;*/
+}
+
+
+  ## use 36px for "enter your zip within the text field
+ ## use PT sans for your font from google web fonts.
+
+
+### images are 145x145
+
+#wrapper footer {
+  background-color: red;
+  height: 150px;
+/*  margin-top: -150px;*/
+/*  position: absolute;
+  bottom: 0;*/
+}
+
+nav
+{
+  text-align: center;
+  list-style: none;
+}
